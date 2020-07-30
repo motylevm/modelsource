@@ -1,4 +1,7 @@
 #ignore all kind of files
 *
-#except php files
+# But descend into directories
+!*/
+#except scn files
 !*.scn
+!.gitignore
